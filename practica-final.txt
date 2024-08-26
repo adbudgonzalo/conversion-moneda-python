@@ -1,0 +1,54 @@
+-------------------------
+
+Problematica
+"La empresa Stech esta perdiendo debido a errores en los cálculos 
+de transacciones de moneda internacional, específicamente al 
+convertir euros y dólares a pesos mexicanos. transacciones 
+desde moneda internacional"
+
+Algoritmo:
+1. Definir el valor acutal del Euro y dolar respecto al peso Mexicano
+2. Solicitar al usuario el tipo de conversion (Euro a Mxn o dolar a Mxn)
+3. Solicitar al usuario el monto a convertir.
+4. Realizar la conversión utilizando el tipo de cambio correspondiente
+5. Mostrar el resultado de la conversión al usuario.
+---------------------------
+Pseudocódigo:
+
+Inicio
+    Paso1: Definir el valor acutal del Euro y dolar respecto al peso Mexicano
+    Definir tipo_cambio_eur_a_mxn=23.70
+    Definir tipo_cambio_usd_a_mxn=20.75
+
+    Paso 2: Solicitar al usuario el tipo de conversion (Euro a Mex o dolar a Mxn)
+    Mostrar mensaje: "Ingrese la moneda origen para la conversión (EUR/USD):"
+
+    Paso 3: Solicitar al usuario el monto a convertir.
+    Mostrar mensaje: "Ingrese el monto a convertir: "
+    
+    Paso 4: Realizar la conversión utilizando el tipo de cambio correspondiente
+    Paso 5: Mostrar el resultado de la conversión al usuario.
+    Si tipo_conversion== "EUR" 
+        Calcular resultado = monto_a_convertir * tipo_cambio_eur_a_mxn
+        Mostrar "El resultado de la conversión de EUR a MXN : ", resultado
+    Sino si tipo_conversion =="USD"
+        Calcular resulatado= monto_a_convertir * tipo_cambio_usd_a_mxn
+        Mostrar "El resultado de la conversión de USD a MXN es: ", resulatado
+    Sino 
+        Mostar : "No está disponible este tipo de conversion"
+
+Fin
+
+
+
+Identificación y Comprensión del Problema: La empresa SuperTech está perdiendo dinero debido a errores en los cálculos de transacciones de moneda internacional, específicamente al convertir euros y dólares a pesos mexicanos.
+Objetivos Claros: Reducir los errores en los cálculos de conversión de euros y dólares a pesos mexicanos. Minimizar las pérdidas financieras asociadas a estos errores.
+Requisitos y Restricciones: Precisión en las conversiones monetarias. Eficiencia en el proceso de conversión. Facilidad de uso para los usuarios.
+Causas Subyacentes: Posibles errores humanos en los cálculos. Falta de un sistema automatizado para realizar conversiones precisas. Variabilidad en los tipos de cambio utilizados.
+Soluciones Alternativas: Implementación de un programa de software para realizar conversiones automáticas. Uso de servicios de terceros para obtener tipos de cambio actualizados automáticamente. Capacitación del personal para mejorar la precisión en los cálculos manuales.
+Criterios de Éxito: Reducción significativa de los errores en los cálculos de conversión. Minimización de las pérdidas financieras asociadas a errores de conversión. Facilidad de uso y eficiencia del programa de software implementado.
+
+
+
+
+
